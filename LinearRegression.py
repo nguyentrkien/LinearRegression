@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import csv
 
 #ReadDataFile
-with open('C:\\Users\\admin\\Desktop\Hoctap\\TrainingData\\Fish.csv') as f:
+with open('Path of File(Fish.csv). Example: C:\\Users\\admin\\Desktop\\TrainingData\\Fish.csv') as f:
     reader = csv.reader(f,delimiter='\t')
     l = [row for row in reader]
 ListData = np.asarray(l)
